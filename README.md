@@ -12,14 +12,14 @@ El laboratorio se desarrollará de manera virtual a lo largo de tres semanas des
 
 * [Sesión 1](sesion1)
 Átomos del lenguaje escrito: el origen a partir de la letra, el carácter, los fonemas y los segmentos del discurso.
-* [Sesión 2](#sesion-2)
+* [Sesión 2](sesion2)
 Del origen a las bifurcaciones: conexiones y relaciones en un texto (gramática generativa).
-* [Sesión 3](#sesion-3)
+* [Sesión 3](sesion3)
 Complejidad: el texto y sus secuencias como fenómeno probabilístico.
-* [Sesión 4](#sesion-4)
+* [Sesión 4](sesion4)
 Máquinas que leen: representaciones computacionales del lenguaje e inteligencia artificial
-* [Sesión 5](#sesion-5)
+* [Sesión 5](sesion5)
 Formas macroscópicas del discurso: frases, textos, tópicos y algoritmos.
-* [Sesión 6](#sesion-6)
+* [Sesión 6](sesion6)
 Hackaton, desarrollo y discusión de proyectos de los participantes.
 
