@@ -10,7 +10,7 @@ El laboratorio se desarrollará de manera virtual a lo largo de tres semanas des
 
 ## Sesiones
 
-* [Sesión 1](#sesion1)
+* [Sesión 1](sesion1)
 Átomos del lenguaje escrito: el origen a partir de la letra, el carácter, los fonemas y los segmentos del discurso.
 * [Sesión 2](#sesion-2)
 Del origen a las bifurcaciones: conexiones y relaciones en un texto (gramática generativa).
