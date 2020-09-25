@@ -27,4 +27,4 @@ Hackaton, desarrollo y discusión de proyectos de los participantes.
 
 El código en este repositorio está bajo [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Todas las obras, imágenes, sonidos, etc. (es decir todo lo que es diferente al código) está bajo la licencia [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
+Todo lo que es diferente al código está bajo la licencia [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
