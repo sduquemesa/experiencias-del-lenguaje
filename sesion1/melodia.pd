@@ -1,0 +1,55 @@
+#N canvas 521 129 819 828 12;
+#X msg 329 172 \; data_array read output.txt;
+#N canvas 0 50 450 250 (subpatch) 0;
+#X array data_array 35 float 3;
+#A 0 104 111 108 97 32 109 117 110 100 111 33 32 117 110 32 116 101
+120 116 111 32 113 117 101 32 101 115 32 109 101 108 111 100 105 97
+;
+#X coords 0 255 35 0 200 140 1 0 0;
+#X restore 542 77 graph;
+#X obj 361 149 array size data_array;
+#X obj 52 61 s array_size;
+#X floatatom 52 38 5 0 0 2 - - -;
+#X text 50 14 inserte el número de carácteres;
+#X obj 329 104 r array_size;
+#X obj 329 126 t b f;
+#X text 325 79 lee datos del archivo;
+#X obj 118 229 tgl 15 0 empty empty PLAY/STOP 17 7 0 10 -4034 -1 -1
+0 1;
+#X obj 118 295 metro 250;
+#X obj 118 319 f;
+#X obj 152 320 + 1;
+#X obj 164 348 r array_size;
+#X floatatom 130 394 5 0 0 0 - - -;
+#X obj 118 421 tabread data_array;
+#X floatatom 129 445 5 0 0 0 - - -;
+#X obj 118 370 mod 10;
+#X obj 118 475 mtof;
+#X obj 118 528 phasor~;
+#X floatatom 130 499 5 0 0 0 - - -;
+#X obj 203 509 vsl 15 64 0 1 0 0 empty empty Ganancia 0 -9 0 10 -262144
+-1 -1 3100 1;
+#X obj 119 576 *~;
+#X obj 119 600 dac~;
+#X msg 131 254 \; pd dsp \$1;
+#X connect 4 0 3 0;
+#X connect 6 0 7 0;
+#X connect 7 0 0 0;
+#X connect 7 1 2 0;
+#X connect 9 0 10 0;
+#X connect 9 0 24 0;
+#X connect 10 0 11 0;
+#X connect 11 0 12 0;
+#X connect 11 0 17 0;
+#X connect 12 0 11 1;
+#X connect 13 0 17 1;
+#X connect 15 0 16 0;
+#X connect 15 0 18 0;
+#X connect 17 0 14 0;
+#X connect 17 0 15 0;
+#X connect 18 0 19 0;
+#X connect 18 0 20 0;
+#X connect 19 0 22 0;
+#X connect 21 0 22 1;
+#X connect 22 0 23 0;
+#X connect 22 0 23 1;
