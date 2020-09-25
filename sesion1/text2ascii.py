@@ -32,4 +32,4 @@ else:
 with open('output.txt', 'w') as filehandle:
     filehandle.write('\n'.join(ascii_list))
 
-print(ascii_list)
+print('Se guardó un archivo de {} carácteres'.format(len(ascii_list)))
