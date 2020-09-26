@@ -23,14 +23,15 @@ function draw() {
         for (var y = 1; y < rows - 1; y++) {
             noiseDetail(3);
 
-            var index = (x + y) % input_ascii.length;
+            var index = (x + y*cols) % input_ascii.length;
             var random_value = 0;
+            var mouse_change = (abs(mouseX-windowWidth/2)/windowWidth + abs(mouseY-windowHeight/2)/windowHeight)/2;
 
-            if (random() < 0.25) {
-                random_value = floor(random()*100);
+            if (random() < mouse_change) {
+                random_value = floor(random()*1000);
             }
 
-            var character = int(input_ascii[index])+random_value;            
+            var character = int(input_ascii[index])+random_value;
 
             push();
             translate(x * scl + (scl / 2), y * scl + (scl / 2));
